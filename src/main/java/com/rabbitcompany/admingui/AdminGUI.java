@@ -40,7 +40,7 @@ public class AdminGUI extends JavaPlugin {
         mkdir();
         loadYamls();
 
-        //Bukkit.getConsoleSender().sendMessage(Message.chat("&7[&cAdmin GUI&7] &aPlugin is enabled!"));
+        Bukkit.getConsoleSender().sendMessage(Message.chat("&7[&cAdmin GUI&7] &aPlugin is enabled!"));
         info("&aEnabling");
 
         //bStats
@@ -71,7 +71,7 @@ public class AdminGUI extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        //Bukkit.getConsoleSender().sendMessage(Message.chat("&7[&cAdmin GUI&7] &4Plugin is disabled!"));
+        Bukkit.getConsoleSender().sendMessage(Message.chat("&7[&cAdmin GUI&7] &4Plugin is disabled!"));
         info("&4Disabling");
     }
 
